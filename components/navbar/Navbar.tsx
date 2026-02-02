@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import NavLink from './NavLink'
-import { Phone, MessageCircle, User, Globe, Search, ChevronDown } from 'lucide-react'
+import { Phone, MessageCircle, Search, ChevronDown } from 'lucide-react'
 import { navLinks } from '@/constants'
 
 const Navbar = () => {
@@ -48,28 +47,7 @@ const Navbar = () => {
                         <Image src='/prameka.png' height={48} width={150} alt='Logo' priority className='object-contain' />
                     </Link>
 
-
-                        <div className="md:flex gap-8 hidden">
-                            {navLinks.map((item) => (
-                                <Link
-                                    key={item.name}
-                                    href={item.href}
-                                    className="group flex items-center gap-1 font-medium text-gray-700 hover:text-blue-900 transition-all text-[15px]"
-                                >
-                                    {item.name}
-                                    {item.name === "Layanan Kesehatan" && <ChevronDown size={16} className='text-green-500 font-bold' />}
-                                </Link>
-                            ))}
-                        </div>
-
-                        <div className="relative group hidden md:block">
-                            <input
-                                type="text"
-                                placeholder="Cari di Prameka..."
-                                className="bg-gray-100 border border-transparent focus:border-green-500 focus:bg-white rounded-lg py-2 px-4 pr-10 text-sm outline-none transition-all w-[200px] lg:w-[250px]"
-                            />
-                            <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-green-600" />
-                        </div>
+                   
 
 
                     <NavLink />

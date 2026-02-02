@@ -9,12 +9,12 @@ import {
 
 const appointmentSteps = [
   {
-    title: "Download Aplikasi MySiloam",
-    linkText: "Pelajari Aplikasi MySiloam",
+    title: "Kelola janji temu melalu website",
+    linkText: "Lihat lebih lanjut",
     image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Kelola Janji Temu",
+    title: "Kelola Janji Temu melalui WhatsApp",
     linkText: "Kelola Janji Temu",
     image: "https://images.unsplash.com/photo-1599045118108-bf9954418b76?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   }

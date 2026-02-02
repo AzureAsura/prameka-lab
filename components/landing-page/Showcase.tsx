@@ -28,8 +28,8 @@ const features = [
 ];
 
 
-// 4. Komponen Utama
-export default function HospitalShowcase() {
+
+export default function Showcase() {
   return (
     <section className="w-full bg-white py-12 md:py-20">
       <div className="container">

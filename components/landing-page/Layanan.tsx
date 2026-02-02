@@ -34,7 +34,7 @@ export default function Layanan() {
 
                 <div className="lg:w-1/4">
                     <p className="text-gray-400 text-sm font-semibold mb-2 uppercase tracking-wide">
-                        Layanan Medis Siloam
+                        Layanan Medis Prameka
                     </p>
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-800 leading-tight">
                         Solusi Kesehatan yang Menyeluruh

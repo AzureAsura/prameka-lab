@@ -15,9 +15,9 @@ export default function StorySection() {
 
       <div className="container relative z-10 mx-auto h-full px-5 flex flex-col justify-center text-white py-16 md:py-0">
         <div className="max-w-2xl space-y-4 md:space-y-5">
-          
+
           <p className="text-[10px] md:text-xs font-semibold opacity-90 tracking-widest uppercase">
-            Cerita #BersamaSiloam
+            Cerita #BersamaPrameka
           </p>
 
           <h2 className="text-2xl md:text-4xl lg:text-[40px] font-bold leading-tight tracking-tight">
@@ -26,9 +26,9 @@ export default function StorySection() {
 
           <div className="flex items-center gap-3 py-1">
             <div className="w-10 h-10 rounded-full overflow-hidden border border-white/30 shrink-0">
-              <img 
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070" 
-                alt="Doctor" 
+              <img
+                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070"
+                alt="Doctor"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -39,7 +39,7 @@ export default function StorySection() {
           </div>
 
           <p className="text-sm md:text-base text-white/90 leading-relaxed max-w-lg">
-            Penyakit ini pernah dialami oleh Hendra Johari (45). Setelah mengalami penurunan fungsi ginjal akibat ginjal polikistik, ia memutuskan untuk menjalani transplantasi ginjal di Siloam Hospitals Asri.
+            Penyakit ini pernah dialami oleh Hendra Johari (45). Setelah mengalami penurunan fungsi ginjal akibat ginjal polikistik, ia memutuskan untuk menjalani transplantasi ginjal di Prameka Lab.
           </p>
 
           <div className="flex flex-col gap-3 pt-2">

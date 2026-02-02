@@ -6,8 +6,6 @@ import Story from '@/components/landing-page/Story'
 import React from 'react'
 import Appointment from '@/components/landing-page/Appoinment'
 import News from '@/components/landing-page/News'
-import Footer from '@/components/Footer'
-import ContactToast from '@/components/ContactToast'
 
 const page = () => {
   return (
@@ -19,8 +17,6 @@ const page = () => {
       <Story/>
       <Appointment/>
       <News/>
-      <Footer/>
-      <ContactToast/>
     </div>
   )
 }
