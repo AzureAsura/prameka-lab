@@ -51,7 +51,7 @@ export default function Showcase() {
                 opts={{ align: "start", loop: false }} 
                 className="w-full"
               >
-                <CarouselContent className="-ml-4">
+                <CarouselContent className="-ml-4 py-2">
                   {features.map((item, index) => (
                     <CarouselItem key={index} className="pl-4 basis-[88%]">
                       <FeatureCard item={item} />

@@ -54,7 +54,6 @@ const NavbarToggle = () => {
                                         </AccordionContent>
                                     </AccordionItem>
                                 ) : (
-                                    /* JIKA LINK BIASA: LANGSUNG LINK */
                                     <div className="border-b border-gray-100 py-6">
                                         <Link
                                             href={item.href!}
