@@ -31,10 +31,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${inter.className} antialiased`}
       >
-        <Navbar />
         {children}
-        <Footer />
-        <ContactToast />
       </body>
     </html>
   );

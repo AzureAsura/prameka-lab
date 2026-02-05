@@ -47,8 +47,6 @@ const Navbar = () => {
                         <Image src='/prameka.png' height={48} width={150} alt='Logo' priority className='object-contain' />
                     </Link>
 
-                   
-
 
                     <NavLink />
                 </div>

@@ -41,16 +41,6 @@ const PusatUnggulan2 = () => {
                         Penyakit ini pernah dialami oleh Hendra Johari (45). Setelah mengalami penurunan fungsi ginjal akibat ginjal polikistik, ia memutuskan untuk menjalani transplantasi ginjal di Prameka Lab.
                     </p>
 
-                    <div className="flex flex-col gap-3 pt-2">
-                        <button className="flex items-center gap-2 group text-sm font-bold hover:text-blue-300 transition-colors w-fit">
-                            <span>Baca Selengkapnya</span>
-                            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                        </button>
-                        <button className="flex items-center gap-2 group text-sm font-bold hover:text-blue-300 transition-colors w-fit">
-                            <span>Lihat Semua Cerita</span>
-                            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                        </button>
-                    </div>
                 </div>
             </div>
         </section>

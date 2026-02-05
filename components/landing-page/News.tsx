@@ -5,6 +5,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import Link from "next/link";
 
 const newsItems = [
   {
@@ -49,7 +50,7 @@ export default function News() {
                   key={index} 
                   className="pl-4 md:pl-6 basis-[85%] sm:basis-1/2 md:basis-1/3"
                 >
-                  <div className="flex flex-col h-full group cursor-pointer">
+                  <Link href='/blog/test' className="flex flex-col h-full group cursor-pointer">
                     <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm mb-6">
                       <Image
                         src={news.image}
@@ -67,7 +68,7 @@ export default function News() {
                         {news.date}
                       </p>
                     </div>
-                  </div>
+                  </Link>
                 </CarouselItem>
               ))}
             </CarouselContent>

@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { ArrowRight, MapPin, Play } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const jobs = [
   { title: "General Practitioner (Dokter Umum)", loc: "Ubud / Canggu", slug: "gp-doctor", cat: "Tenaga Medis" },
