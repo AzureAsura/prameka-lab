@@ -79,7 +79,7 @@ export default function Footer() {
           </div>
 
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs md:text-sm opacity-90">
-            <p>© Copyright 2026, PT Siloam International Hospitals Tbk.</p>
+            <p>© Copyright 2026, PT Prameka Lab.</p>
             <div className="flex gap-6">
               <Link href="#" className="hover:underline">Syarat dan Ketentuan</Link>
               <span className="opacity-30">|</span>

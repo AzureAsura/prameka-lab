@@ -8,7 +8,7 @@ const doctors = Array(10).fill({
     name: "dr. Ade Rahmatdianto",
     specialty: "Kedokteran Umum",
     subSpecialty: "Dokter Umum",
-    hospital: "Siloam Hospitals Surabaya",
+    hospital: "Prameka Hospitals Surabaya",
     availability: "Senin - Jumat",
     image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070",
 });

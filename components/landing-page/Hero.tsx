@@ -6,10 +6,10 @@ const Hero = () => {
   const menuItems = [
     { label: "Cari Dokter", icon: <Stethoscope className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/cari-dokter' },
     { label: "Layanan Unggulan", icon: <Building2 className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/layanan-unggulan' },
-    { label: "Medical Check Up", icon: <ClipboardList className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/mcu' },
-    { label: "At Home", icon: <Home className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/mcu' },
-    { label: "Lab", icon: <FlaskConical className="w-5 h-5 md:w-6 md:h-6 text-red-900" />,  href: '/mcu' },
-    { label: "Radiologi", icon: <MonitorPlay className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/mcu' },
+    { label: "Medical Check Up", icon: <ClipboardList className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/layanan/mcu' },
+    { label: "At Home", icon: <Home className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/layanan/mcu' },
+    { label: "Lab", icon: <FlaskConical className="w-5 h-5 md:w-6 md:h-6 text-red-900" />,  href: '/layanan/mcu' },
+    { label: "Radiologi", icon: <MonitorPlay className="w-5 h-5 md:w-6 md:h-6 text-red-900" />, href: '/layanan/mcu' },
   ]
 
   const stats = [
